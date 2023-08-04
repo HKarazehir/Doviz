@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Döviz Kuru</title>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: darkslategray;">
+    <div id="container">
+        <div id="main">
+            <div class="header-wrapper">
+                <h4>DÖVİZ KURU ÇEVİRİCİ</h4>
+            </div>
+            <!-- <hr/> -->
+            <div class="content-wrapper">
+                <input type="number" id="amount" placeholder="Miktar" />
+                <select id="firstCurrencyOption">
+                    <option>AUD</option>
+                    <option>BGN</option>
+                    <option>BRL</option>
+                    <option>CAD</option>
+                    <option>CHF</option>
+                    <option>CNY</option>
+                    <option>CZK</option>
+                    <option>DKK</option>
+                    <option>EUR</option>
+                    <option>GBP</option>
+                    <option>HKD</option>
+                    <option>HRK</option>
+                    <option>HUF</option>
+                    <option>IDR</option>
+                    <option>ILS</option>
+                    <option>INR</option>
+                    <option>ISK</option>
+                    <option>JPY</option>
+                    <option>KRW</option>
+                    <option>MXN</option>
+                    <option>MYR</option>
+                    <option>NOK</option>
+                    <option>NZD</option>
+                    <option>PHP</option>
+                    <option>PLN</option>
+                    <option>RON</option>
+                    <option>RUB</option>
+                    <option>SEK</option>
+                    <option>SGD</option>
+                    <option>THB</option>
+                    <option>TRY</option>
+                    <option selected >USD</option>
+                    <option>ZAR</option>
+                </select>
+                <i class="fa-solid fa-arrow-right"></i>
+                <select id="secondCurrencyOption">
+                    <option>AUD</option>
+                    <option>BGN</option>
+                    <option>BRL</option>
+                    <option>CAD</option>
+                    <option>CHF</option>
+                    <option>CNY</option>
+                    <option>CZK</option>
+                    <option>DKK</option>
+                    <option>EUR</option>
+                    <option>GBP</option>
+                    <option>HKD</option>
+                    <option>HRK</option>
+                    <option>HUF</option>
+                    <option>IDR</option>
+                    <option>ILS</option>
+                    <option>INR</option>
+                    <option>ISK</option>
+                    <option>JPY</option>
+                    <option>KRW</option>
+                    <option>MXN</option>
+                    <option>MYR</option>
+                    <option>NOK</option>
+                    <option>NZD</option>
+                    <option>PHP</option>
+                    <option>PLN</option>
+                    <option>RON</option>
+                    <option>RUB</option>
+                    <option>SEK</option>
+                    <option>SGD</option>
+                    <option>THB</option>
+                    <option selected >TRY</option>
+                    <option>USD</option>
+                    <option>ZAR</option>
+                </select>
+                <input type="number" id="result" readonly placeholder="Sonuç" />
+                <span><i class="fa-regular fa-copyright"></i>Copyright - Hasan Karazehir</span>
+            </div>
+        </div>
+        <p>PARAGRAF</p>
+    </div>
+    <script src="currency.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
